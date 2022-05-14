@@ -1,0 +1,32 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  title Prism learning centre
+  body
+    container#semanticTags
+      nav#navbar
+        ul
+          li #[a(href="/") Home]
+          li #[a(href="/") About]
+          li #[a(href="/") Services]
+          li #[a(href="/") Admission]
+          li #[a(href="/") Contact Us]
+        
+        section#introSection 
+          div
+            h3 Welcome to Prism Learning Centre
+          div
+            h5 Learn at your ease...
+      section#achievementSection
+        div.card
+          h2 WELCOME
+          div.line
+      section#sponserSection
+        h1 Our sponsers
+      footer#footer
+        |Copyright &copy 2022 PrismLearningCentre.com | All rights reserved
+
+    script
+      include ../static/index.js

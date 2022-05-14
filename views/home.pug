@@ -1,0 +1,29 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+  style
+    include ../static/style.css
+
+block container
+  nav#navbar
+    ul
+      li #[a(href="/") Home]
+      li #[a(href="/") About]
+      li #[a(href="/") Services]
+      li #[a(href="/") Admission]
+      li #[a(href="/contact") Contact Us]
+    section#introSection 
+        div
+          h3 Welcome to Prism Learning Centre
+        div
+          h5 Learn at your ease...
+block content
+  section#achievementSection
+    div.card
+      h2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, exercitationem.
+      div.line
+  section#sponserSection
+    h1 Our sponsers
